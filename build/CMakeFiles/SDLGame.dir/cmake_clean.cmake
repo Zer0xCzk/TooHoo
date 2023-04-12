@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SDLGame.dir/src/engine.cpp.o.d"
   "CMakeFiles/SDLGame.dir/src/main.cpp.o"
   "CMakeFiles/SDLGame.dir/src/main.cpp.o.d"
+  "CMakeFiles/SDLGame.dir/src/object.cpp.o"
+  "CMakeFiles/SDLGame.dir/src/object.cpp.o.d"
   "CMakeFiles/SDLGame.dir/src/sprite.cpp.o"
   "CMakeFiles/SDLGame.dir/src/sprite.cpp.o.d"
   "SDLGame"

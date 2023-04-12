@@ -1,7 +1,7 @@
 CMakeFiles/SDLGame.dir/src/sprite.cpp.o: \
- /home/zerox/Personal/Projects/Cyper/Source/src/sprite.cpp \
+ /home/zerox/Personal/Projects/TooHoo/src/sprite.cpp \
  /usr/include/stdc-predef.h \
- /home/zerox/Personal/Projects/Cyper/Source/src/sprite.h \
+ /home/zerox/Personal/Projects/TooHoo/src/sprite.h \
  /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
  /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
  /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/begin_code.h \
@@ -166,7 +166,7 @@ CMakeFiles/SDLGame.dir/src/sprite.cpp.o: \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
  /usr/include/SDL2/SDL_misc.h \
- /home/zerox/Personal/Projects/Cyper/Source/src/engine.h \
+ /home/zerox/Personal/Projects/TooHoo/src/engine.h \
  /usr/include/SDL2/SDL_main.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdbool.h \
  /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h

@@ -1,7 +1,6 @@
-CMakeFiles/SDLGame.dir/src/engine.cpp.o: \
- /home/zerox/Personal/Projects/TooHoo/src/engine.cpp \
- /usr/include/stdc-predef.h \
- /home/zerox/Personal/Projects/TooHoo/src/engine.h \
+CMakeFiles/SDLGame.dir/src/object.cpp.o: \
+ /home/zerox/Personal/Projects/TooHoo/src/object.cpp \
+ /usr/include/stdc-predef.h /usr/include/SDL2/SDL.h \
  /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h \
  /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_platform.h \
  /usr/include/SDL2/begin_code.h /usr/include/SDL2/close_code.h \
@@ -57,7 +56,6 @@ CMakeFiles/SDLGame.dir/src/engine.cpp.o: \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
  /usr/include/bits/iscanonical.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/float.h \
- /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
  /usr/include/SDL2/SDL_assert.h /usr/include/SDL2/SDL_atomic.h \
  /usr/include/SDL2/SDL_audio.h /usr/include/SDL2/SDL_error.h \
  /usr/include/SDL2/SDL_endian.h /usr/include/SDL2/SDL_mutex.h \
@@ -166,7 +164,4 @@ CMakeFiles/SDLGame.dir/src/engine.cpp.o: \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
  /usr/include/SDL2/SDL_misc.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdbool.h \
- /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h \
- /usr/include/SDL2/SDL_ttf.h \
  /home/zerox/Personal/Projects/TooHoo/src/object.h

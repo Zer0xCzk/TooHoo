@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zerox/Personal/Projects/Cyper/Source
+CMAKE_SOURCE_DIR = /home/zerox/Personal/Projects/TooHoo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zerox/Personal/Projects/Cyper/Source/build
+CMAKE_BINARY_DIR = /home/zerox/Personal/Projects/TooHoo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zerox/Personal/Projects/Cyper/Source/build/CMakeFiles /home/zerox/Personal/Projects/Cyper/Source/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zerox/Personal/Projects/TooHoo/build/CMakeFiles /home/zerox/Personal/Projects/TooHoo/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zerox/Personal/Projects/Cyper/Source/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zerox/Personal/Projects/TooHoo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLGame.dir/build.make CMakeFiles/SDLGame.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/object.o: src/object.cpp.o
+.PHONY : src/object.o
+
+# target to build an object file
+src/object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLGame.dir/build.make CMakeFiles/SDLGame.dir/src/object.cpp.o
+.PHONY : src/object.cpp.o
+
+src/object.i: src/object.cpp.i
+.PHONY : src/object.i
+
+# target to preprocess a source file
+src/object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLGame.dir/build.make CMakeFiles/SDLGame.dir/src/object.cpp.i
+.PHONY : src/object.cpp.i
+
+src/object.s: src/object.cpp.s
+.PHONY : src/object.s
+
+# target to generate assembly for a file
+src/object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDLGame.dir/build.make CMakeFiles/SDLGame.dir/src/object.cpp.s
+.PHONY : src/object.cpp.s
+
 src/sprite.o: src/sprite.cpp.o
 .PHONY : src/sprite.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/object.o"
+	@echo "... src/object.i"
+	@echo "... src/object.s"
 	@echo "... src/sprite.o"
 	@echo "... src/sprite.i"
 	@echo "... src/sprite.s"

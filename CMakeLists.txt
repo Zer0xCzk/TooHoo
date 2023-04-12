@@ -9,6 +9,7 @@ set(SOURCES
 	src/engine.cpp
 	src/main.cpp
 	src/object.h
+	src/object.cpp
 	src/sprite.h
 	src/sprite.cpp
 )
