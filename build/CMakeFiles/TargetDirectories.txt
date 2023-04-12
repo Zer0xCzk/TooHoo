@@ -1,3 +1,0 @@
-/home/zerox/Personal/Projects/TooHoo/build/CMakeFiles/SDLGame.dir
-/home/zerox/Personal/Projects/TooHoo/build/CMakeFiles/edit_cache.dir
-/home/zerox/Personal/Projects/TooHoo/build/CMakeFiles/rebuild_cache.dir
