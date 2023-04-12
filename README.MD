@@ -1,6 +1,8 @@
-# Cyper
-Still very much in-dev platformer
-
+# TooHoo
+A TouHou-like shooter
+~~~
+WARNING: At the moment seg faults unless started using a debuger
+~~~
 ## Windows setup
 ### 1. Clone this repository
 Clone this repository.
