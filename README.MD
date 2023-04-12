@@ -1,7 +1,7 @@
 # TooHoo
 A TouHou-like shooter
 ~~~
-WARNING: At the moment seg faults unless started using a debuger
+WARNING: At the moment seg faults on my notebook running arch
 ~~~
 ## Windows setup
 ### 1. Clone this repository
