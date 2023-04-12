@@ -1,4 +1,5 @@
-# SDL2 Game Template
+# Cyper
+Still very much in-dev platformer
 
 ## Windows setup
 ### 1. Clone this repository
